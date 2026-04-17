@@ -327,7 +327,7 @@ erDiagram
     }
 
     USER_PREFERENCES {
-        uuid user_id PK_FK
+        uuid user_id PK
         jsonb channel_preferences
         jsonb event_preferences
         time quiet_hours_start
