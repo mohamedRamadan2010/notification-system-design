@@ -384,8 +384,8 @@ erDiagram
     }
 
     TEMPLATE_VERSIONS {
-        string template_key PK_FK
-        int version PK
+        string template_key PK
+        int version_num PK
         string subject
         text body
         timestamp created_at
